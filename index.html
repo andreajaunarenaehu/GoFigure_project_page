@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>ImageMet: A General Purpose Multimodal Database for Metaphor Understanding</title>
+  <title>GoFigure! Seeing Beyond the Literal for the Benchmarking of Vision-Language Models</title>
   <link rel="icon" type="image/x-icon" href="static/images/hitzicon.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,7 +52,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title"><strong>ImageMet </strong>: A General Purpose Multimodal Database for Metaphor Understanding</h1>
+            <h1 class="title is-1 publication-title"><strong>GoFigure! </strong>Seeing Beyond the Literal for the Benchmarking of Vision-Language Models</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
@@ -87,7 +87,7 @@
                     <span class="icon">
                       <i class="fas fa-database"></i>
                     </span>
-                    <span>ImageMet Dataset</span>
+                    <span>GoFigure Dataset</span>
                   </a>
                 </span>
 
@@ -118,7 +118,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Metaphors pose a significant challenge for Vision-Language Models, which must integrate figurative meaning across visual and textual modalities. Furthermore, existing multimodal metaphor datasets remain limited in size, linguistic diversity, and task flexibility, restricting the systematic evaluation of models’ capabilities to process figurative language. In this work, we present ImageMet, a synthetically generated and human-validated multimodal dataset, where each instance is composed of: i) a visual metaphor, ii) a figurative and literal textual counterpart, iii) the specifications of the explicit source-target mappings, and iv) the meaning of the generated linguistic metaphor. Grounded in conceptual metaphor theory, ImageMet enables a unified evaluation across four key dimensions: metaphor detection, interpretation, generation, and cross-modal mapping. Using ImageMet, in this paper, we benchmark state-of-the-art dual-encoder Vision-Language Models (VLMs) and Multimodal LLMs (MLLMs) on image-text retrieval, visual entailment, and metaphor generation. Results show that dual-encoder models struggle with figurative cross-modal alignment, MLLMs often rely on surface-level visual overlaps rather than meaning for entailment decisions, and metaphor generation improves substantially when models are visually grounded. These findings reveal persistent gaps in the multimodal figurative understanding research field and demonstrate the value of ImageMet for advancing research on metaphor processing across modalities.
+            Metaphors pose a significant challenge for Vision-Language Models, which must integrate figurative meaning across visual and textual modalities. Furthermore, existing multimodal metaphor datasets remain limited in size, linguistic diversity, and task flexibility, restricting the systematic evaluation of models’ capabilities to process figurative language. In this work, we present GoFigure, a synthetically generated and human-validated multimodal dataset, where each instance is composed of: i) a visual metaphor, ii) a figurative and literal textual counterpart, iii) the specifications of the explicit source-target mappings, and iv) the meaning of the generated linguistic metaphor. Grounded in conceptual metaphor theory, GoFigure enables a unified evaluation across four key dimensions: metaphor detection, interpretation, generation, and cross-modal mapping. Using GoFigure, in this paper, we benchmark state-of-the-art dual-encoder Vision-Language Models (VLMs) and Multimodal LLMs (MLLMs) on image-text retrieval, visual entailment, and metaphor generation. Results show that dual-encoder models struggle with figurative cross-modal alignment, MLLMs often rely on surface-level visual overlaps rather than meaning for entailment decisions, and metaphor generation improves substantially when models are visually grounded. These findings reveal persistent gaps in the multimodal figurative understanding research field and demonstrate the value of GoFigure for advancing research on metaphor processing across modalities.
           </p>
         </div>
       </div>
@@ -131,20 +131,20 @@
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container  is-max-desktop">
-      <h2 class="title is-2">What is ImageMet?</h2>
+      <h2 class="title is-2">What is GoFigure?</h2>
       <div class="level-set has-text-justified">
         <p>
-          <strong>ImageMet </strong> is a <strong>general-purpose multimodal dataset for metaphor understanding</strong>, designed to evaluate how Vision Language Models (VLMs)
+          <strong>GoFigure </strong> is a <strong>general-purpose multimodal dataset for metaphor understanding</strong>, designed to evaluate how Vision Language Models (VLMs)
           and Multimodal Large Language Models (MLLMs) process figurative meaning across modalities (images and text).
         </p>
         <img style="width: 100%; max-width: 1500px; height: auto;" src="static/introduction_figure-2.jpg" alt="MY ALT TEXT"/>
        <p> 
-         Unlike previous datasets, ImageMet supports <strong>multiple metaphor-related tasks</strong>, including metaphor <strong>detection</strong>, <strong>interpretation</strong>, 
+         Unlike previous datasets, GoFigure supports <strong>multiple metaphor-related tasks</strong>, including metaphor <strong>detection</strong>, <strong>interpretation</strong>, 
          <strong>generation</strong>, and <strong>cross-modal mapping</strong>. 
        </p>
      </div> 
       <br>
-      <h2 class="title is-2">Why ImageMet?</h2>
+      <h2 class="title is-2">Why GoFigure?</h2>
       <div class="level-set has-text-justified">
         <p>
           Metaphors are central for human communication, but they remain challenging for multimodal models. In addition, existing 
@@ -159,7 +159,7 @@
         <br>
         <p>
           As a result, systematic evaluation of multimodal metaphor understanding is still missing. 
-          <strong>To address this gap</strong>, ImageMet: 
+          <strong>To address this gap</strong>, GoFigure: 
           <ol class="ml-6">
             <li>Supports <strong>evaluation across multiple tasks</strong>, without varying the dataset size.</li>
             <li>Includes <strong>linguistic metaphors grounded in</strong> established theoretical frameworks, such as <strong>conceptual metaphor theory</strong>
@@ -172,11 +172,11 @@
         </p>
       </div>
        <br> 
-      <h2 class="title is-2">What does an ImageMet instance contain?</h2>
+      <h2 class="title is-2">What does an GoFigure instance contain?</h2>
       <div class="level-set has-text-justified">
       <p>
         <img style="width: 100%; max-width: 1500px; height: auto;" src="static/Examples_web_orria_40_2.jpg" alt="MY ALT TEXT"/>
-        <strong>ImageMet </strong> has 639 instances consisting of: 
+        <strong>GoFigure </strong> has 639 instances consisting of: 
       </p>
         <ol class="ml-6">
           <li>a <strong>visual metaphor </strong> (image),</li>
@@ -191,11 +191,11 @@
         </ol> 
      </div> 
       <br>
-      <h2 class="title is-2">How was ImageMet built?</h2>
+      <h2 class="title is-2">How was GoFigure built?</h2>
       <div class="level-set has-text-justified">
         <p>
           <img style="width: 100%; max-width: 1500px; height: auto;" src="static/DATASET_ESQUEMA(1).png" alt="MY ALT TEXT"/>
-          ImageMet was created using a semi-automated, human-validated pipeline grounded in linguistic theory:
+          GoFigure was created using a semi-automated, human-validated pipeline grounded in linguistic theory:
           <ol class="ml-6">
           <li><strong>Conceptual mappings </strong> collected from the Master Metaphor list.</li>
           <li><strong>Text generation</strong> (generated linguistic metaphor, contradicting metaphor, entailing literal and contradicting literal) prompting
@@ -209,9 +209,9 @@
         </p>
       </div>
       <br>
-      <h2 class="title is-2">What tasks does ImageMet support?</h2>
+      <h2 class="title is-2">What tasks does GoFigure support?</h2>
       <div class="level-set has-text-justified">
-        ImageMet enables <strong>evaluation</strong> across <strong>four key dimensions</strong> of metaphor understanding: (1) <strong>metaphor detection</strong>, 
+        GoFigure enables <strong>evaluation</strong> across <strong>four key dimensions</strong> of metaphor understanding: (1) <strong>metaphor detection</strong>, 
         (2) <strong>metaphor generation</strong>, (3) <strong>metaphor interpretation</strong>, and 
         (4) <strong>cross-modal mapping</strong>. 
         <br>
@@ -254,7 +254,7 @@
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 style="text-align: center;" class="title is-3">Instances from ImageMet dataset</h2>
+      <h2 style="text-align: center;" class="title is-3">Instances from GoFigure dataset</h2>
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
